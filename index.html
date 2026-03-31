@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevTeam Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-gray-950 text-white font-sans">
+    <!-- NAV -->
+    <nav
+      class="flex items-center justify-between px-8 py-4 border-b border-gray-800"
+    >
+      <span class="text-xl font-bold text-indigo-400">DevTeam Hub</span>
+      <div class="flex gap-6 text-sm text-gray-400">
+        <a href="#team" class="hover:text-white transition-colors">Team</a>
+        <a href="#projects" class="hover:text-white transition-colors"
+          >Projects</a
+        >
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="text-center py-24 px-4">
+      <h1 class="text-5xl font-extrabold text-white mb-4">
+        We Build Things Together
+      </h1>
+      <p class="text-gray-400 text-lg max-w-xl mx-auto">
+        A crew of developers learning to ship real software. JSD Cohort 12.
+      </p>
+    </section>
+
+    <!-- TEAM SECTION -->
+    <section id="team" class="px-8 py-16">
+      <h2 class="text-2xl font-bold text-indigo-400 mb-10 text-center">
+        Meet the Team
+      </h2>
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto"
+      >
+        <!-- MEMBER 1: Replace this placeholder with your card -->
+        <div
+          class="bg-gray-800 rounded-xl p-6 text-center opacity-40 border border-dashed border-gray-600"
+        >
+          <div class="w-16 h-16 rounded-full bg-gray-600 mx-auto mb-4"></div>
+          <p class="font-semibold text-gray-400">Member 1</p>
+          <p class="text-sm text-gray-500">Waiting for PR...</p>
+        </div>
+
+        <!-- MEMBER 2: Replace this placeholder with your card -->
+        <div
+          class="bg-gray-800 rounded-xl p-6 text-center opacity-40 border border-dashed border-gray-600"
+        >
+          <div class="w-16 h-16 rounded-full bg-gray-600 mx-auto mb-4"></div>
+          <p class="font-semibold text-gray-400">Member 2</p>
+          <p class="text-sm text-gray-500">Waiting for PR...</p>
+        </div>
+
+        <!-- MEMBER 3: Replace this placeholder with your card -->
+        <div
+          class="bg-gray-800 rounded-xl p-6 text-center opacity-40 border border-dashed border-gray-600"
+        >
+          <div class="w-16 h-16 rounded-full bg-gray-600 mx-auto mb-4"></div>
+          <p class="font-semibold text-gray-400">Member 3</p>
+          <p class="text-sm text-gray-500">Waiting for PR...</p>
+        </div>
+
+        <!-- MEMBER 4: Replace this placeholder with your card -->
+        <div
+          class="bg-gray-800 rounded-xl p-6 text-center opacity-40 border border-dashed border-gray-600"
+        >
+          <div class="w-16 h-16 rounded-full bg-gray-600 mx-auto mb-4"></div>
+          <p class="font-semibold text-gray-400">Member 4</p>
+          <p class="text-sm text-gray-500">Waiting for PR...</p>
+        </div>
+
+        <!-- MEMBER 5: Replace this placeholder with your card -->
+        <div
+          class="bg-gray-800 rounded-xl p-6 text-center opacity-40 border border-dashed border-gray-600"
+        >
+          <div class="w-16 h-16 rounded-full bg-gray-600 mx-auto mb-4"></div>
+          <p class="font-semibold text-gray-400">Member 5</p>
+          <p class="text-sm text-gray-500">Waiting for PR...</p>
+        </div>
+
+        <!-- MEMBER 6: Replace this placeholder with your card -->
+        <div
+          class="bg-gray-800 rounded-xl p-6 text-center opacity-40 border border-dashed border-gray-600"
+        >
+          <div class="w-16 h-16 rounded-full bg-gray-600 mx-auto mb-4"></div>
+          <p class="font-semibold text-gray-400">Member 6</p>
+          <p class="text-sm text-gray-500">Waiting for PR...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT BOARD SECTION -->
+    <section id="projects" class="px-8 py-16 bg-gray-900">
+      <h2 class="text-2xl font-bold text-indigo-400 mb-10 text-center">
+        What We're Building
+      </h2>
+      <div
+        id="project-list"
+        class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto"
+      ></div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer
+      class="text-center py-8 text-gray-600 text-sm border-t border-gray-800"
+    >
+      Built by JSD Cohort 12 &mdash; practising Git one commit at a time.
+    </footer>
+
+    <script src="data/projects.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

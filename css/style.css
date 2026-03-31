@@ -1,0 +1,17 @@
+/* DevTeam Hub - custom styles */
+/* Tailwind CDN handles almost everything. This file is for the few things it can't. */
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Smooth card hover border transition */
+.team-card {
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-2px);
+}
